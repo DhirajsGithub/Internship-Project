@@ -1,21 +1,18 @@
 import React from "react";
 import classes from "./ProjectCardOwner.module.css";
-import sample_prof from "../../assets/sample_prof.svg";
 
-const ProjectCardOwner = () => {
+const ProjectCardOwner = ({ owner }) => {
+  const { name, image, disc, role } = owner;
   return (
     <div className={classes.main}>
       <div className={classes.content}>
-        <img src={sample_prof} alt="" />
+        <img src={image} alt="" />
         <div>
           <div className={classes.head}>
-            <h1>Rahul Gupta</h1>
-            <p>Manager</p>
+            <h1>{name}</h1>
+            <p>{role}</p>
           </div>
-          <p className={classes.disc}>
-            Anshul’s super simplified, intuitive, minimal designs are delight to
-            watch and gets the end task done with minimum steps
-          </p>
+          <p className={classes.disc}>{disc}</p>
         </div>
       </div>
     </div>

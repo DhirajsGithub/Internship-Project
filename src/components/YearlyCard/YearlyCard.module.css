@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;600&display=swap');
+
+
+.main{
+    display: flex;
+min-width: 171px;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 19px;
+border-radius: 8px;
+background: #FFF;
+padding: 16px;
+/* Shadow/xs */
+box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+}
+.img{
+    display: flex;
+width: 90.004px;
+height: 90.004px;
+padding: 5px;
+justify-content: center;
+align-items: center;
+border-radius: 45.002px;
+/* border: 16.072px solid var(--Blue-50, #EFF8FF); */
+/* background: var(--Blue-100, #D1E9FF); */
+}
+.head{
+    padding: 0;
+    margin: 0;
+    color: var(--Gray-900, #101828);
+    font-family: 'Manrope', sans-serif;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 24px; /* 133.333% */
+}
+.btnDiv{
+    display: flex;
+padding: 12px 16px;
+justify-content: center;
+align-items: center;
+gap: 20px;
+align-self: stretch;
+border-radius: 0px 0px 8px 8px;
+border-top: 1px solid var(--Gray-200, #EAECF0);
+background: var(--White, #FFF);
+}
+.btn{
+    margin: 0;
+    padding: 0;
+    color: var(--Success-500, #12B76A);
+
+/* Text sm/Medium */
+font-family: 'Manrope', sans-serif;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 20px; /* 142.857% */
+}
+.btn:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}

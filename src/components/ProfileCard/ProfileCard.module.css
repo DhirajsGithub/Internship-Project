@@ -4,7 +4,7 @@
 .main{
     flex-grow: 2;
     display: flex;
-min-width: 408px;
+width: 408px;
 min-height: 406px;
 padding: 16px;
 flex-direction: column;
@@ -127,3 +127,10 @@ border: 1px solid var(--Stroke-Primary, #ECECEC);
 background: var(--Surface-Primary, #FFF);
 }
 
+
+
+@media only screen and (max-width: 500px) {
+    .main {
+        width: 90%;
+    }
+  }

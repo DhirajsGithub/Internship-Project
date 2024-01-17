@@ -7,6 +7,10 @@ import TotalBages from "../../components/TotalBadges/TotalBages";
 import Summary from "../../components/Summary/Summary";
 
 const HeaderPage = () => {
+  const [viewAll, setViewAll] = React.useState(false);
+  const handleClick = () => {
+    setViewAll(!viewAll);
+  };
   return (
     <>
       <div className={classes.header}>
@@ -24,6 +28,11 @@ const HeaderPage = () => {
       </div>
       <br />
       <div className={classes.hLine} />
+      <div className={classes.viewAll}>
+        <p onClick={handleClick} className={classes.viewAllBtn}>
+          {viewAll ? "View Less" : "View All"}
+        </p>
+      </div>
     </>
   );
 };

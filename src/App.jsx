@@ -4,6 +4,8 @@ import ProfileCard from "./components/ProfileCard/ProfileCard";
 import HeaderPage from "./pages/Header/HeaderPage";
 import BadgesEarned from "./pages/BadgesEarned/BadgesEarned";
 import Projects from "./pages/Projects/Projects";
+import YearlyOverview from "./pages/YearlyOverview/YearlyOverview";
+import PerformanceInsights from "./pages/PerformanceInsights/PerformanceInsights";
 
 function App() {
   return (
@@ -11,6 +13,8 @@ function App() {
       <HeaderPage />
       <BadgesEarned />
       <Projects />
+      <YearlyOverview />
+      <PerformanceInsights />
     </>
   );
 }

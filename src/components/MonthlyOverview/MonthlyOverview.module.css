@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;600&display=swap');
+
+
+.main{
+    display: inline-flex;
+height: 319px;
+padding: 24px;
+flex-direction: column;
+align-items: flex-start;
+gap: 24px;
+flex-shrink: 0;
+border-radius: 10.277px;
+background: #FFF;
+
+/* Shadow/sm */
+box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.06), 0px 1px 3px 0px rgba(16, 24, 40, 0.10);
+}
+
+.normalComp{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+}
+.rect{
+    display: flex;
+padding: 4px;
+flex-direction: column;
+align-items: center;
+gap: 4px;
+align-self: stretch;
+border-radius: 8px;
+border: 1px dashed var(--ref-primary-primary60-brand, #48BF84);
+background: var(--Surface-Primary, #FFF);
+}
+.check{
+    display: flex;
+padding: 4.364px;
+justify-content: center;
+align-items: center;
+gap: 4.364px;
+}
+.num{
+    color: var(--Content-On-Light-Secondary, #898989);
+    font-family: 'Manrope', sans-serif;
+font-size: 8px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.normalRate{
+    display: flex;
+padding: 4px;
+justify-content: center;
+align-items: center;
+gap: 2px;
+border-radius: 14px;
+background: var(--Pill-Surface-Trainity, #F2FAF6);
+}
+.rateVal{
+    color: var(--Content-On-Light-Primary, #181818);
+
+font-family: 'Manrope', sans-serif;
+font-size: 10px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.blackRate{
+    width: 10px;
+height: 10px;
+}

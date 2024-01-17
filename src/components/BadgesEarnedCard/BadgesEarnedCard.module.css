@@ -5,6 +5,7 @@
 padding: 24px;
 align-items: center;
 /* gap: 16px; */
+min-width: 300px;
 flex-grow: 1;
 flex: 1 0 0;
 align-self: stretch;
@@ -29,13 +30,13 @@ line-height: 100%; /* 16px */
     margin: 0;
     overflow: hidden;
 color: #77879C;
-text-overflow: ellipsis;
-white-space: nowrap;
+/* text-overflow: ellipsis; */
+/* white-space: nowrap; */
 font-family: 'Manrope', sans-serif;
 font-size: 12px;
 font-style: normal;
 font-weight: 600;
 line-height: 16px; /* 133.333% */
 flex: 1 0 0;
-align-self: stretch;
+/* align-self: stretch; */
 }

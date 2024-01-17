@@ -10,9 +10,33 @@
     border-radius: 0px 0px 8px 8px;
 border-top: 1px solid var(--Gray-200, #EAECF0);
 display: flex;
-padding: 12px 16px;
+padding: 12px 16px 0px 16px;
 justify-content: flex-end;
 align-items: center;
 gap: 20px;
 align-self: stretch;
+}
+
+.viewAll{
+    display: flex;
+    justify-content: end;
+}
+.viewAll p{
+    margin: 0;
+    padding: 0;
+    margin-bottom: 30px;
+}
+.viewAllBtn{
+    color: var(--Success-500, #12B76A);
+
+/* Text sm/Medium */
+font-family: 'Manrope', sans-serif;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 20px; /* 142.857% */
+}
+.viewAllBtn:hover{
+    cursor: pointer;
+
 }

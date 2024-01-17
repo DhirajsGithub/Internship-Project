@@ -52,7 +52,7 @@ const BadgesEarned = () => {
       </div>
       <div className={classes.viewAll}>
         <p onClick={handleViewAllPress} className={classes.viewAllBtn}>
-          {viewAll ? "View Less" : "View All"}
+          {viewAll ? "View Less Badges" : "View All Badges"}
         </p>
       </div>
     </div>

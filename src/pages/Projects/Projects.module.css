@@ -1,3 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;600&display=swap');
+
 .main{
-    
+    display: flex;
+    gap: 32px;
+    flex-wrap: wrap;
 }
+.title{
+    color: #363636;
+    font-family: 'Manrope', sans-serif;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: 22px; /* 110% */
+}
+
+
+@media only screen and (max-width: 500px) {
+    .main{
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+        /* flex-wrap: wrap; */
+    }
+  }
