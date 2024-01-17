@@ -24,10 +24,10 @@ const SocialCard = ({ name, link }) => {
   );
 };
 
-const EditBtn = ({ name }) => {
+const EditBtn = ({ name, action }) => {
   return (
     <div style={{ display: "flex", justifyContent: "flex-end", width: "100%" }}>
-      <div className={classes.editBtn}>
+      <div onClick={action} className={classes.editBtn}>
         <img src={editSvg} alt="edit svg" />
         <p>{name}</p>
       </div>

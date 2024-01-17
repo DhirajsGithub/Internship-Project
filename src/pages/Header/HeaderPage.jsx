@@ -8,19 +8,23 @@ import Summary from "../../components/Summary/Summary";
 
 const HeaderPage = () => {
   return (
-    <div className={classes.header}>
-      <ProfileCard />
-      <div style={{ flexGrow: 1 }}>
-        <AvgRating />
-        <br />
-        <Streak />
+    <>
+      <div className={classes.header}>
+        <ProfileCard />
+        <div style={{ flexGrow: 1 }}>
+          <AvgRating />
+          <br />
+          <Streak />
+        </div>
+        <div style={{ flexGrow: 1 }}>
+          <TotalBages />
+          <br />
+          <Summary />
+        </div>
       </div>
-      <div style={{ flexGrow: 1 }}>
-        <TotalBages />
-        <br />
-        <Summary />
-      </div>
-    </div>
+      <br />
+      <div className={classes.hLine} />
+    </>
   );
 };
 

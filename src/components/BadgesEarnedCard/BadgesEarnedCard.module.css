@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;500&display=swap');
+
+.main{
+    display: flex;
+padding: 24px;
+align-items: center;
+/* gap: 16px; */
+flex-grow: 1;
+flex: 1 0 0;
+align-self: stretch;
+border-radius: 12px;
+border: 1px solid var(--Gray-300, #D0D5DD);
+background: var(--Surface-Primary, #FFF);
+}
+.badgeName{
+    padding: 0;
+margin: 0;
+margin-bottom: 5px;
+    color: #181818;
+    font-family: 'Manrope', sans-serif;
+    align-self: stretch;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 100%; /* 16px */
+}
+.badgeDisc{
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+color: #77879C;
+text-overflow: ellipsis;
+white-space: nowrap;
+font-family: 'Manrope', sans-serif;
+font-size: 12px;
+font-style: normal;
+font-weight: 600;
+line-height: 16px; /* 133.333% */
+flex: 1 0 0;
+align-self: stretch;
+}
