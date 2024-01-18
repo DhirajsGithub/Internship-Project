@@ -21,7 +21,27 @@ const NormalComp = () => {
 const MonthlyOverview = () => {
   return (
     <div className={classes.main}>
-      <NormalComp />
+      <h1 className={classes.head}>Monthly Overview</h1>
+      <div className={classes.boxes}>
+        <NormalComp />
+        <NormalComp />
+        <NormalComp />
+        <NormalComp />
+        <NormalComp />
+        <NormalComp />
+        <NormalComp />
+        <NormalComp />
+        <NormalComp />
+        <NormalComp />
+        <NormalComp />
+        <NormalComp />
+        <NormalComp />
+        <NormalComp />
+        <NormalComp />
+        <NormalComp />
+        <NormalComp />
+        <NormalComp />
+      </div>
     </div>
   );
 };

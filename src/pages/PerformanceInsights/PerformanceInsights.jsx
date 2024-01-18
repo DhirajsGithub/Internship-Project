@@ -11,8 +11,11 @@ const PerformanceInsights = () => {
         <h1 className={classes.head}>Performance Insights - August</h1>
       </div>
       <div className={classes.main}>
-        <PerformanceScore />
-        <div>
+        <div className={classes.score}>
+          <PerformanceScore />
+        </div>
+
+        <div className={classes.chartMonth}>
           <Chart />
           <MonthlyOverview />
         </div>

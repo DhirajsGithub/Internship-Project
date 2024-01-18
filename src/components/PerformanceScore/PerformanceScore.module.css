@@ -2,7 +2,7 @@
 
 .main{
     display: flex;
-width: 380px;
+/* width: 100%; */
 /* flex-grow: 1; */
 padding: 24px;
 flex-direction: column;
